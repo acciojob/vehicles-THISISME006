@@ -4,13 +4,13 @@ public class Boat implements WaterVehicle{
     private String name;
     private int capacity;
 
-    public Boat(int capacity) {
-        this.capacity = capacity;
-    }
-
-    public Boat(String name) {
-        this.name = name;
-    }
+//    public Boat(int capacity) {
+//        this.capacity = capacity;
+//    }
+//
+//    public Boat(String name) {
+//        this.name = name;
+//    }
 
     public String getName() {
         return name;
